@@ -10,5 +10,6 @@ object Fibo extends App{
         return Fibo(term-1) + Fibo(term-2)
 
     }
-    println(Fibo(3))
+    var term = readInt(); 
+    println(Fibo(term))
 }
